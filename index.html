@@ -256,8 +256,8 @@
     async function signIn() {
       // Guard: alert if placeholders haven't been replaced
       if (
-        MSAL_CONFIG.auth.clientId === "a3e4ac85-6272-4cc6-b553-f91e1019552f" ||
-        MSAL_CONFIG.auth.authority.includes("a76b06e3-f400-49db-84df-e9a75fa473f6")
+        MSAL_CONFIG.auth.clientId === "YOUR_CLIENT_ID" ||
+        MSAL_CONFIG.auth.authority.includes("YOUR_TENANT_ID")
       ) {
         setStatus(
           "Configuration required: please replace YOUR_CLIENT_ID and YOUR_TENANT_ID in index.html before using this page.",
